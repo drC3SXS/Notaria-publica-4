@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Poderes Especiales y Generales</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        /* Reset y estilos base */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.8rem;
+            margin-bottom: 1rem;
+        }
+        
+        header p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        /* Contenido principal */
+        .main-content {
+            max-width: 1100px;
+            margin: 3rem auto;
+            padding: 0 2rem;
+        }
+        
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: space-between;
+            margin-top: 2rem;
+        }
+        
+        .card {
+            flex: 1 1 300px;
+            background: white;
+            border-radius: 8px;
+            padding: 2rem;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+            border-top: 4px solid #3498db;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .card h2 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+        }
+        
+        .card ul {
+            list-style-type: none;
+        }
+        
+        .card li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .card li:last-child {
+            border-bottom: none;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .cta-section {
+            background-color: #ecf0f1;
+            padding: 2rem;
+            border-radius: 8px;
+            margin: 3rem 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Poderes Notariales</h1>
+        <p>Redactamos poderes generales y especiales conforme a tus necesidades jurídicas</p>
+    </header>
+    
+    <main class="main-content">
+        <section>
+            <div class="card-container">
+                <div class="card">
+                    <h2>Poderes Generales</h2>
+                    <ul>
+                        <li>Para administración de bienes</li>
+                        <li>Representación judicial</li>
+                        <li>Actos de administración</li>
+                        <li>Poderes amplios</li>
+                        <li>Duración a convenir</li>
+                    </ul>
+                </div>
+                
+                <div class="card">
+                    <h2>Poderes Especiales</h2>
+                    <ul>
+                        <li>Para actos específicos</li>
+                        <li>Compraventa de propiedades</li>
+                        <li>Apertura de cuentas bancarias</li>
+                        <li>Representación en trámites</li>
+                        <li>Autorizaciones concretas</li>
+                    </ul>
+                </div>
+                
+                <div class="card">
+                    <h2>Ventajas</h2>
+                    <ul>
+                        <li>Redacción profesional</li>
+                        <li>Asesoramiento personalizado</li>
+                        <li>Validez legal garantizada</li>
+                        <li>Presencial o por representación</li>
+                        <li>Rápida tramitación</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="cta-section">
+                <h2>¿Necesitas un poder notarial?</h2>
+                <p>Nuestros notarios te asesorarán para elegir el tipo de poder que mejor se adapte a tus necesidades</p>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Notaria publica 4. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

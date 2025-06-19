@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Procedimientos Sucesorios</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        /* Reset y estilos base */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8f9fa;
+            color: #212529;
+            line-height: 1.7;
+        }
+        
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #343a40 0%, #495057 100%);
+            color: white;
+            padding: 4rem 1rem;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        header p {
+            font-size: 1.25rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        /* Contenido principal */
+        .main-content {
+            max-width: 1200px;
+            margin: 3rem auto;
+            padding: 0 1.5rem;
+        }
+        
+        .section-title {
+            color: #343a40;
+            font-family: 'Playfair Display', serif;
+            text-align: center;
+            margin-bottom: 3rem;
+            font-size: 2.2rem;
+            position: relative;
+        }
+        
+        .section-title:after {
+            content: "";
+            display: block;
+            width: 100px;
+            height: 3px;
+            background: #6c757d;
+            margin: 0.8rem auto 0;
+        }
+        
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+            margin-bottom: 4rem;
+        }
+        
+        .card {
+            flex: 1 1 350px;
+            background: white;
+            border-radius: 8px;
+            padding: 2rem;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            border-top: 4px solid #6c757d;
+            transition: all 0.3s ease;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        
+        .card h2 {
+            color: #343a40;
+            margin-bottom: 1.5rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        
+        .card ul {
+            list-style: none;
+        }
+        
+        .card li {
+            padding: 0.8rem 0;
+            border-bottom: 1px solid #e9ecef;
+            position: relative;
+            padding-left: 1.5rem;
+        }
+        
+        .card li:before {
+            content: "•";
+            color: #6c757d;
+            font-size: 1.5rem;
+            position: absolute;
+            left: 0;
+            top: 0.5rem;
+        }
+        
+        /* Footer */
+        footer {
+            background: #343a40;
+            color: white;
+            text-align: center;
+            padding: 2.5rem 1rem;
+            margin-top: 4rem;
+        }
+        
+        @media (max-width: 768px) {
+            header {
+                padding: 3rem 1rem;
+            }
+            
+            header h1 {
+                font-size: 2.2rem;
+            }
+            
+            .card {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Procedimientos Sucesorios</h1>
+        <p>Realizamos sucesiones legítimas o testamentarias ante notario público con la máxima seguridad jurídica</p>
+    </header>
+    
+    <main class="main-content">
+        <section>
+            <h2 class="section-title">Servicios Sucesorios</h2>
+            
+            <div class="card-container">
+                <div class="card">
+                    <h2>Sucesiones Testamentarias</h2>
+                    <ul>
+                        <li>Apertura de testamentos</li>
+                        <li>Protocolización documental</li>
+                        <li>Interpretación de disposiciones</li>
+                        <li>Declaración de herederos</li>
+                        <li>Adjudicación de herencia</li>
+                    </ul>
+                </div>
+                
+                <div class="card">                
+                    <h2>Sucesiones Legítimas</h2>
+                    <ul>
+                        <li>Declaración de herederos</li>
+                        <li>Actas de notoriedad</li>
+                        <li>Determinación de legítimas</li>
+                        <li>Particiones hereditarias</li>
+                        <li>Adjudicación de bienes</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Notaria publica 4 - Derechos reservados</p>
+    </footer>
+</body>
+</html>

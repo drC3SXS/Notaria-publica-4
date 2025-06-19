@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Asesoría Hipotecaria</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        /* Reset y estilos base */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        /* Header destacado */
+        .hero {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto 2rem;
+        }
+        
+        /* Contenido principal */
+        .container {
+            max-width: 1100px;
+            margin: 3rem auto;
+            padding: 0 2rem;
+        }
+        
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+        
+        .service-card {
+            background: white;
+            border-radius: 8px;
+            padding: 2rem;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .service-card h3 {
+            color: #1e3c72;
+            margin-bottom: 1rem;
+            font-size: 1.4rem;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: #1e3c72;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .highlight {
+            color: #2a5298;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <h1>Asesoría Hipotecaria Integral</h1>
+        <p>Te acompañamos en cada etapa del proceso hipotecario, desde la constitución hasta la cancelación, garantizando seguridad jurídica y las mejores condiciones.</p>
+    </header>
+    
+    <main class="container">
+        <section>
+            <h2 style="text-align: center; margin-bottom: 2rem; color: #1e3c72;">Nuestros Servicios Hipotecarios</h2>
+            
+            <div class="services">
+                <div class="service-card">
+                    <h3>Constitución de Hipotecas</h3>
+                    <p>Asesoramiento profesional para formalizar tu hipoteca ante notario, garantizando que comprendas todos los términos del contrato.</p>
+                </div>
+                
+                <div class="service-card">
+                    <h3>Cancelación Hipotecaria</h3>
+                    <p>Te guiamos en el proceso de cancelación de tu hipoteca, asegurando que todos los trámites se realicen correctamente.</p>
+                </div>
+                
+                <div class="service-card">
+                    <h3>Subrogaciones y Novaciones</h3>
+                    <p>Te ayudamos a mejorar las condiciones de tu hipoteca existente mediante subrogación o novación contractual.</p>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin: 3rem 0;">
+                <p>En <span class="highlight">Asesoría Hipotecaria Integral</span>, nos comprometemos a ofrecerte transparencia, seguridad jurídica y las mejores condiciones del mercado.</p>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Notaria publica 4. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
